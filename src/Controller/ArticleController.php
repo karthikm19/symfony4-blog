@@ -21,7 +21,7 @@ class ArticleController extends AbstractController
 	public function show($title)
 	{
 		return $this->render('article/show.html.twig', [
-			'title' => str_replace("-", " ", $title)
+			'title' => ucfirst(str_replace("-", " ", $title))
 		]);
 	}
 }

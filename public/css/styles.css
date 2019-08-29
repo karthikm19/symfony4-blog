@@ -1,7 +1,18 @@
 
+.navbar {
+	background-color: #A0522D !important;
+}
 /*
  * General
  */
+a {
+	color: #A0522D;
+}
+a:hover {
+	color: #8B4513;
+	text-decoration: none;
+}
+
 .p-t-15 {
 	padding-top: 15px;
 }
@@ -27,8 +38,13 @@
 .blog-title {
 	margin: 0;
 }
-.latest-posts {
-	
+.blog-date {
+	color: #999;
+	font-style: italic;
+}
+.homepage-archives-list {
+	list-style: none;
+	padding: 5px 5px 5px 0;
 }
 
 /*
