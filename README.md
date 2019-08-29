@@ -1,2 +1,5 @@
-# symfony4-simple-blog
-A simple blog to learn/update Symfony4 skills
+# Symfony4 Blog
+A simple blog using Symfony 4, Bootstrap 4 and other supporting technologies.
+
+## Todo
+Will be updating the details gradually while application is growing.
