@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container">
+	<div class="p-3 p-md-5 bg-light">
+	    <div class="col-md-6 px-0">
+			<h1 class="display-5 font-italic">Featured blog post</h1>
+			<p class="lead my-3">A simple blog app created to learn Symfony4, Bootstrap4 and supporting tools/technologies.</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="p-t-15 col-sm-8">
+			<h3 class="blog-title">
+				<a href="/article/test-one">Sample blog posts</a>
+			</h3>
+			<div class="blog-date p-b-10">
+				January 1, 2014 by Mark
+			</div>
+			<div class="blog-body">
+				<p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+			    <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+				<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+			</div>
+		</div>
+		<div class="col-sm-4 p-t-15 p-b-15">
+			<h4>Archives</h4>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<h4 class="p-t-15">Recommended posts</h4>
+	<div class="row p-b-15">
+	  <div class="col-sm-4">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Special title treatment</h5>
+	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	        <a href="#" class="card-link">Read more</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-4">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Special title treatment</h5>
+	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	        <a href="#" class="card-link">Read more</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-4">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Special title treatment</h5>
+	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	        <a href="#" class="card-link">Read more</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+{% endblock %}
